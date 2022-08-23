@@ -11,5 +11,8 @@ let lugar = process.env.LUGAR || "sin ingresar";
 //+ Por buenas prácticas heredadas de Linux las variables de entorno que vengan desde fuera (process.env.VARIABLE ) se ponen en mayúscula 
 // y se separan mediante guion bajo en vez de espacio.
 
+// ----IMPORTANTE---- Para declarar la variable por consola se debera hacer de la siguiente manera: 
+// $env:NOMBRE="Sebastian"; $env:LUGAR="Palomar"; node Cursos\variablesEntorno.js
+
 console.log("El nombre ingresado fue: "+ nombre);
 console.log("El lugar ingreado fue: "+ lugar);
