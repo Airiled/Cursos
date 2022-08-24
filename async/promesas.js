@@ -72,5 +72,6 @@ hola('Agustin')
     })
     .catch(error => {  //Al momento de haber encontrado un error en vez de seguir ejecutando todo el codigo se detiene todo el proceso ahi
         console.error('ha habido un error');
+        console.error('Ignorar.....');
     })
 
